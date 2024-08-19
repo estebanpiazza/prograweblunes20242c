@@ -87,3 +87,17 @@ console.log(i)
 // a += b
 
 
+//parseo/castean los datos
+let cualquiera = "11.6"
+let cualquieraNumero = parseInt(cualquiera)
+console.log(cualquieraNumero)
+let cualquieraNumeroFloat = parseFloat(cualquiera)
+console.log(cualquieraNumeroFloat)
+let cualquieraEnTexto = cualquieraNumero.toString()
+console.log(cualquieraEnTexto)
+
+//thurty y flasy
+
+console.log("perro"&&"gato")
+console.log("perro"||"gato")
+
