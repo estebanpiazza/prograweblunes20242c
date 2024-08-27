@@ -66,3 +66,24 @@ const map1 = array1.map(
 console.log(map1);
 // Expected output: Array [2, 8, 18, 32]
 
+/***************************************/
+
+// API y JSON
+
+let objeto = {
+    nombre: "Gonzalo",
+    edad : 23,
+    deudor: true,
+    carrera: "Lic. en Gestión de Negocios",
+    cancelarDeuda : function (){
+        this.deudor = false
+    }
+}
+
+console.log(objeto)
+let objetoJSONEADO = JSON.stringify(objeto)
+console.log(objetoJSONEADO)
+let objetoParseado = JSON.parse(objetoJSONEADO)
+console.log(objetoParseado)
+
+
